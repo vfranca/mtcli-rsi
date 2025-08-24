@@ -56,6 +56,7 @@ def rsi(symbol, period, periodo, bars, db):
     shutdown()
 
     if rates is None or len(rates) == 0:
+        click.echo(f"Erro ao obter dados do {symbol}.")
         logger.error(f"Erro ao obter dados do {symbol}.")
         return
 
