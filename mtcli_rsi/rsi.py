@@ -22,7 +22,7 @@ logger = setup_logger("rsi")
 @click.option("--db", default="rsi.db", help="Arquivo SQLite (default rsi.db).")
 def rsi(symbol, period, periodo, bars, db):
     """Calcula o RSI do ativo symbol."""
-    conecta()
+    conectar()
 
     tf_map = {
         "M1": mt5.TIMEFRAME_M1,
