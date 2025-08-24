@@ -3,10 +3,12 @@ name = "mtcli-rsi"
 version = "0.1.0"
 description = "Plugin mtcli do indicador RSI"
 authors = [
-    {name = "Valmir França",email = "vfranca3@gmail.com"}
+    {name = "Valmir França da Silva",email = "vfranca3@gmail.com"}
 ]
+license = "GPL-3.0"
 readme = "README.md"
-requires-python = ">=3.11,<4.0.0"
+repository = "https://github.com/vfranca/mtcli-rsi"
+requires-python = ">=3.11,<3.14.0"
 dependencies = [
     "mtcli (>=1.18.1,<2.0.0)",
     "pandas (>=2.3.2,<3.0.0)"
