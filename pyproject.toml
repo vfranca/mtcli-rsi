@@ -6,7 +6,7 @@ authors = [
     {name = "Valmir França da Silva",email = "vfranca3@gmail.com"}
 ]
 license = "GPL-3.0"
-readme = "docs/README.md"
+readme = "README.md"
 requires-python = ">=3.11,<3.14.0"
 dependencies = [
     "mtcli (>=1.18.1,<2.0.0)",
