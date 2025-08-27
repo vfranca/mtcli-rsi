@@ -6,13 +6,18 @@ authors = [
     {name = "Valmir França da Silva",email = "vfranca3@gmail.com"}
 ]
 license = "GPL-3.0"
-readme = "README.md"
-repository = "https://github.com/vfranca/mtcli-rsi"
+readme = "docs/README.md"
 requires-python = ">=3.11,<3.14.0"
 dependencies = [
     "mtcli (>=1.18.1,<2.0.0)",
     "pandas (>=2.3.2,<3.0.0)"
 ]
+
+[project.urls]
+repository = "https://github.com/vfranca/mtcli-rsi"
+documentation = "https://vfranca.github.io/mtcli-rsi"
+homepage = "https://github.com/vfranca/mtcli-rsi"
+issues = "https://github.com/vfranca/mtcli-rsi/issues"
 
 [project.entry-points."mtcli.plugins"]
 rsi = "mtcli_rsi.rsi:rsi"
