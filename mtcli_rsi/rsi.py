@@ -6,7 +6,7 @@ from mtcli.conecta import conectar, shutdown
 from mtcli.logger import setup_logger
 
 
-logger = setup_logger("rsi")
+logger = setup_logger()
 
 
 @click.command()
