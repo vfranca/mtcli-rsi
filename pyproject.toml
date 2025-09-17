@@ -20,11 +20,17 @@ homepage = "https://github.com/vfranca/mtcli-rsi"
 issues = "https://github.com/vfranca/mtcli-rsi/issues"
 
 [project.entry-points."mtcli.plugins"]
-rsi = "mtcli_rsi.rsi:rsi"
+mtcli-rsi = "mtcli_rsi.plugin:rsi"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.4.1"
 black = "^25.1.0"
+pytest-cov = "^7.0.0"
+
+
+[tool.poetry.group.docs.dependencies]
+mkdocs = "^1.6.1"
+pymdown-extensions = "^10.16.1"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
