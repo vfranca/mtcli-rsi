@@ -14,9 +14,9 @@ dependencies = [
 ]
 
 [project.urls]
-repository = "https://github.com/vfranca/mtcli-rsi"
-documentation = "https://vfranca.github.io/mtcli-rsi"
 homepage = "https://github.com/vfranca/mtcli-rsi"
+documentation = "https://mtcli-rsi.readthedocs.io"
+repository = "https://github.com/vfranca/mtcli-rsi"
 issues = "https://github.com/vfranca/mtcli-rsi/issues"
 
 [project.entry-points."mtcli.plugins"]
