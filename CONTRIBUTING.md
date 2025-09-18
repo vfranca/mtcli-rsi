@@ -9,7 +9,7 @@ Obrigado por considerar contribuir com este projeto! Abaixo estão instruções 
 Clone o repositório e instale as dependências com o Poetry:
   
 ```bash
-git clone https://github.com/seu-usuario/mtcli-rsi.git
+git clone https://github.com/vfranca/mtcli-rsi.git
 cd mtcli-rsi
 poetry install
 ```
