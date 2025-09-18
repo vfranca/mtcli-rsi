@@ -1,0 +1,27 @@
+site_name: mtcli-rsi
+repo_url: https://github.com/vfranca/mtcli-rsi
+site_description: Plugin mtcli para cálculo de RSI com dados da MetaTrader 5
+site_author: Valmir França da Silva
+theme:
+  name: material
+  language: pt-BR
+
+nav:
+  - Início: index.md
+  - Instalação: instalacao.md
+  - Uso: uso.md
+  - Armazenamento: armazenamento.md
+  - Desenvolvimento: desenvolvimento.md
+  - API: api.md
+
+plugins:
+  - search
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - codehilite
+  - footnotes
+  - tables
+
