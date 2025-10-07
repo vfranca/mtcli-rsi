@@ -12,7 +12,7 @@ from .rsi import calcular_rsi_completo
 log = setup_logger()
 
 
-@click.command()
+@click.command("rsi", help="Calcula o indicador RSI (Índice de Força Relativa) para o ativo informado.")
 @click.version_option(package_name="mtcli-rsi")
 @click.option(
     "--symbol", "-s", default="WIN$N", help="Símbolo do ativo (default WIN$N)."
